@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Raw scrape checkpoints - regenerable from nba_scraper.py, keep the repo light.
+# Commit the FINAL cleaned datasets (e.g. team_advanced_stats_1990_2026.csv,
+# playoff_games_1990_2026.csv) once they're stable - that's what makes the
+# project's data collection reproducible and reviewable, not a liability.
+playoff_games_20*.csv
+*_checkpoint.csv
+
+# Local env / secrets (not needed for this project, but standard practice)
+.env
